@@ -7,6 +7,7 @@
           {{ link.name }}
         </v-tab>
       </v-tabs>
+
     </v-app-bar>
 
     <v-main>
@@ -17,14 +18,10 @@
       <section style="position: relative; height: 100%;">
         <div class="center" style="width: 90vw;">
           <center style="width: 90vw">
-            
-            <nuxt />
-
+            <nuxt/>
           </center>
         </div>
       </section>
-
-
     </v-main>
   </v-app>
 </template>
@@ -58,20 +55,28 @@ section {
           path: '/'
         },
         {
-          name: 'Install',
-          path: '/install'
+          name: 'Services',
+          path: '/services'
         },
         {
-          name: 'FAQ',
-          path: '/faq'
+          name: 'Technologies',
+          path: '/technologies'
         },
         {
-          name: 'Donate',
-          path: '/donate'
+          name: 'Team',
+          path: '/team'
         },
         {
-          name: 'Links',
-          path: '/links'
+          name: 'Careers',
+          path: '/careers'
+        },
+        {
+          name: 'Invest',
+          path: '/invest'
+        },
+        {
+          name: 'Contact',
+          path: '/contact'
         },
       ],
     }),

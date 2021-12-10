@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: 'Return YouTube Dislike',
-    title: 'Return YouTube Dislike',
+    titleTemplate: 'Adra Technologies',
+    title: 'Adra Technologies',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,7 +12,7 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
-      { hid: 'description', name: 'description', content: 'An extension that returns dislike statistics to YouTube. For now, it only works if a video had public display of dislikes enabled before YouTube removed dislike stats. ' },
+      { hid: 'description', name: 'description', content: 'Live in the future and build what\'s missing.' },
       { hid: 'og:image', name: 'og:image', content: '/logo.png' },
       { hid: 'theme-color', name: 'theme-color', content: '#ff0000' }
     ],
